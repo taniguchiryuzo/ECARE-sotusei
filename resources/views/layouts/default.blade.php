@@ -18,11 +18,11 @@
         <nav class="flex items-center justify-between py-6">
             <a class="text-3xl font-semibold leading-none text-white" href="/index">E-CARE</a>
             <ul class="hidden lg:flex ml-12 mr-auto space-x-12">
-                <li><a class="text-sm text-white hover:text-blueGray-500" href="#">レシピ一覧</a></li>
-                <li><a class="text-sm text-white hover:text-blueGray-500" href="#">カテゴリ検索</a></li>
+                <!-- <li><a class="text-sm text-white hover:text-blueGray-500" href="#">レシピ一覧</a></li>
+                <li><a class="text-sm text-white hover:text-blueGray-500" href="#">カテゴリ検索</a></li> -->
             </ul>
             <div>
-                <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-500 hover:bg-blue-600 text-white rounded" href="/project/admin/login">管理者ページ</a>
+                <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-500 hover:bg-blue-600 text-white rounded" href="project/admin/login">管理者ページ</a>
             </div>
         </nav>
     </div>
