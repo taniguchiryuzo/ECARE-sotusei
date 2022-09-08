@@ -2,6 +2,12 @@
 @section('title', 'トップページ')
 
 @section('content')
+<!-- cssの呼び出し -->
+<link href="css/tailwind/tailwind.min.css" rel="stylesheet" type="text/css">
+<!-- jsファイルの呼び出し -->
+<script src="js/main.js" type="text/javascript"></script>
+
+
 <section class="bg-gray-100">
   <div class="container mx-auto py-40 relative">
     <h1 class="mt-2 text-4xl font-bold font-heading text-center">さぁ、みんなでご飯を楽しもう！！</h1>
