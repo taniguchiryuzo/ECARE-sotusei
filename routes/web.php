@@ -51,7 +51,7 @@ Route::post('/admin/logout', [AuthController::class, 'logout'])->name('admin.log
 
 // 検索
 Route::get('/serch', [RecipiController::class, 'serch'])->name('serch');
-Route::get('/index', [RecipiController::class, 'index']);
+Route::get('/', [RecipiController::class, 'index']);
 
 // 詳細ページ
 Route::get('/detail{recipi}', [DetailController::class, 'detail'])->name('detail');
