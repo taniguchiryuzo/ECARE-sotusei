@@ -22,7 +22,7 @@
                 <li><a class="text-sm text-white hover:text-blueGray-500" href="#">カテゴリ検索</a></li> -->
             </ul>
             <div>
-                <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-500 hover:bg-blue-600 text-white rounded" href="project/admin/login">管理者ページ</a>
+                <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-blue-500 hover:bg-blue-600 text-white rounded" href="admin/login">管理者ページ</a>
             </div>
         </nav>
     </div>
