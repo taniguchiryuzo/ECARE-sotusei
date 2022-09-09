@@ -50,6 +50,8 @@
       </div>
     </div>
   </section>
+  <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-gray-500 hover:bg-gray-600 text-white rounded" href="/project">TOPに戻る</a>
+
 </div>
 </body>
 </html>
