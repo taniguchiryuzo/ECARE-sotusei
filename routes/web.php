@@ -22,14 +22,7 @@ use App\Http\Controllers\DetailController;
 //     return view('index');
 // });
 
-// 管理画面
-// Route::prefix('/admin')
-//      ->('admin')
-//      ->('middleware')('auth')
-//      ->group(function(){
 
-
-//      })
 
 
 //レシピ
