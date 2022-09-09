@@ -6,6 +6,9 @@
 <script src="js/main.js" type="text/javascript"></script>
 <div style="margin-top:50px;">
 <h1>検索結果</h1>
+
+<a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-green-500 hover:bg-green-600 text-white rounded" href="index">戻る</a>
+
 @if(isset($recipis))
 <table class="table-auto w-full">
                 <thead>
