@@ -1,6 +1,9 @@
 @extends('layouts.default')
 
 @section('content')
+<link href="css/tailwind/tailwind.min.css" rel="stylesheet" type="text/css">
+<!-- jsファイルの呼び出し -->
+<script src="js/main.js" type="text/javascript"></script>
 <div style="margin-top:50px;">
 <h1>検索結果</h1>
 @if(isset($recipis))
