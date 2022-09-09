@@ -46,7 +46,7 @@ class RecipiController extends Controller
             ]);
         } elseif ($keyword_foodform == 2) {
             $query = Recipi::query();
-            $recipis = $query->where('foodform', 'マッシュ食')->get();
+            $recipis = $query->where('foodform', 'マッシュ')->get();
             $message = "マッシュ食の検索が完了しました";
             return view('/serch')->with([
                 'recipis' => $recipis,
