@@ -4,9 +4,9 @@
   <title>管理者ログイン</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="/css/tailwind/tailwind.min.css">
+  <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
 
-  
+
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
   <script src="js/main.js"></script>
 </head>
