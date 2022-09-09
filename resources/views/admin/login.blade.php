@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!-- <link rel="stylesheet" href="https://rsms.me/inter/inter.css"> -->
-      <link href="css/tailwind/tailwind.min.css" rel="stylesheet" type="text/css">
+      <link href="css/admin/tailwind/tailwind.min.css" rel="stylesheet" type="text/css">
 
   <!-- <link rel="stylesheet" href="css/admin/tailwind/tailwind.min.css" type="text/css"> -->
   
