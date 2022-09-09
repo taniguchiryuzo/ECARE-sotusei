@@ -27,7 +27,7 @@ use App\Http\Controllers\DetailController;
 
 //レシピ
 Route::get('/admin/recipis', [AdminRecipiController::class, 'index'])->name('admin.recipis.index');
-Route::get('/admin/recipis/create', [AdminRecipiController::class, 'create'])->name('admin.recipis.create')->middleware('auth');
+Route::get('/recipis/create', [AdminRecipiController::class, 'create'])->name('admin.recipis.create')->middleware('auth');
 Route::post('/admin/recipis', [AdminRecipiController::class, 'store'])->name('admin.recipis.store')->middleware('auth');
 Route::get('/admin/recipis/{recipi}', [AdminRecipiController::class, 'edit'])->name('admin.recipis.edit')->middleware('auth');
 Route::put('/admin/recipis/{recipi}', [AdminRecipiController::class, 'update'])->name('admin.recipis.update')->middleware('auth');
