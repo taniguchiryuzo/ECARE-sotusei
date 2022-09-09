@@ -47,9 +47,10 @@
             <button type="submit" class="block w-full p-4 text-center text-xs text-white font-semibold leading-none bg-blue-600 hover:bg-blue-700 rounded">ログイン</button>
           </form>
         </div>
+              <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-gray-500 hover:bg-gray-600 text-white rounded" href="/project">TOPに戻る</a>
+
       </div>
     </div>
-      <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-gray-500 hover:bg-gray-600 text-white rounded" href="/project">TOPに戻る</a>
 
   </section>
 
