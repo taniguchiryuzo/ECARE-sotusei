@@ -54,7 +54,7 @@
      </select>
    </div> --}}
 
-  <button type="submit" class="btn btn-primary col-md-5">検索</button>
+  <button type="submit" class="py-2 px-3 text-xs text-white font-semibold bg-indigo-500 rounded-md">検索</button>
 </form>
 
 @if(session('flash_message'))
