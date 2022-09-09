@@ -16,7 +16,7 @@
                     <th class="font-medium text-center">タイトル</th>
                     <th class="font-medium">カテゴリ</th>
                     <th class="font-medium">食形態</th>
-                    <th class="font-medium">更新日時</th>
+                    <th class="font-medium">編集/削除</th>
                     
                 </tr>
                 </thead>
