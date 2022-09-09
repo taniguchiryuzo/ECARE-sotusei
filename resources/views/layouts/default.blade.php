@@ -16,7 +16,7 @@
 <header class="bg-yellow-400 ">
     <div class="container px-4 mx-auto">
         <nav class="flex items-center justify-between py-6">
-            <a class="text-3xl font-semibold leading-none text-white" href="/">E-CARE</a>
+            <a class="text-3xl font-semibold leading-none text-white" href="/project">E-CARE</a>
             <ul class="hidden lg:flex ml-12 mr-auto space-x-12">
                 <!-- <li><a class="text-sm text-white hover:text-blueGray-500" href="#">レシピ一覧</a></li>
                 <li><a class="text-sm text-white hover:text-blueGray-500" href="#">カテゴリ検索</a></li> -->
