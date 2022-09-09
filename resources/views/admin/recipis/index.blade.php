@@ -24,12 +24,12 @@
                     @foreach ($recipis as $recipi )
                     <tr @class(['text-sm'.'bg-gray-50' => $loop->odd])>
                     <td class="flex px-4 py-3 recipis-center">
-                        <img class="w-12 h-12 mr-4 object-cover rounded-md" src="{{ asset('storage/app/public/recipis'.$recipi->image) }}" alt="">
+                        <img class="w-12 h-12 mr-4 object-cover rounded-md" src="{{ asset('storage/recipis'.$recipi->image) }}" alt="">
                         <p class="font-medium"><a href="{{ route('admin.recipis.edit',['recipi' => $recipi->id]) }}">{{ $recipi->title }}</a></p>
                     </td>
                     <td class="font-medium">{{ $recipi->type }}</td>
                     <td class="font-medium">{{ $recipi->foodform }}</td>
-                    {{-- <td>{{ $recipi->updated_at }}</td> --}}
+                    
                     <td>
                         <div class="flex">
                             <a class="mr-2" href="{{ route('admin.recipis.edit',['recipi' => $recipi->id]) }}">
