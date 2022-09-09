@@ -34,7 +34,7 @@
         <div class="navbar-backdrop fixed lg:hidden inset-0 bg-gray-800 opacity-10"></div>
         <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-3/4 lg:w-80 sm:max-w-xs pt-6 pb-8 bg-gray-800 overflow-y-auto">
             <h1 class="px-6 pb-6 mb-6 lg:border-b border-gray-700">
-                <a class="text-xl text-white font-semibold" href="recipis">管理画面</a>
+                <a class="text-xl text-white font-semibold" href="../recipis">管理画面</a>
             </h1>
             <div class="px-4 pb-6">
                 <h3 class="mb-2 text-xs uppercase text-gray-500 font-medium">メニュー</h3>
