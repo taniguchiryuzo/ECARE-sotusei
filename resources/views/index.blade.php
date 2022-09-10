@@ -4,6 +4,8 @@
 @section('content')
 <!-- cssの呼び出し -->
 <link href="css/tailwind/tailwind.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
 <!-- jsファイルの呼び出し -->
 <script src="js/main.js" type="text/javascript"></script>
 
