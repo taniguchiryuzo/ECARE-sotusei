@@ -1,6 +1,9 @@
 @extends('layouts.admin')
 
 @section('content')
+<link href="../../css/tailwind/tailwind.min.css" rel="stylesheet" type="text/css">
+<!-- jsファイルの呼び出し -->
+<script src="../../js/main.js" type="text/javascript"></script>
 <section>
     <div class="mb-6 py-4 bg-white rounded">
         <div class="flex px-6 pb-4 border-b">

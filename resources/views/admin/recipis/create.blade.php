@@ -4,10 +4,10 @@
 <!-- cssの呼び出し -->
 <link href="../../css/tailwind/tailwind.min.css" rel="stylesheet" type="text/css">
 <!-- jsファイルの呼び出し -->
-<script src="js/main.js" type="text/javascript"></script>
+<script src="../../js/main.js" type="text/javascript"></script>
 <section class="py-8">
     <div class="container px-4 mx-auto">
-        <div class="py-4 bg-white rounded">
+        <div class="py-4 bg-white rounded"></div>
             <form action="{{ route('admin.recipis.store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="flex px-6 pb-4 border-b">
