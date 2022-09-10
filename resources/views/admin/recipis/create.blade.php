@@ -41,7 +41,7 @@
                             <img id="previewImage" src="../../images/admin/noimage.jpg" data-noimage="../..//images/admin/noimage.jpg" alt="" class="rounded shadow-md w-64">
                         </div>
                         <div>
-                            <input id="image" class="block w-full px-4 py-3 mb-1" type="file" accept='image/*' name="image">
+                            <input id="image" class="block w-full px-3 py-2 mb-1" type="file" accept='image/*' name="image">
                         </div>
                     </div>
 
