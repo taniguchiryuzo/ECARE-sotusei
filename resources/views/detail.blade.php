@@ -41,7 +41,7 @@
                       <div class="">{{ $recipi->material }}</div>
                       <div class="">{{ $recipi->body }}</div>
                      </div>
-         <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-green-500 hover:bg-green-600 text-white rounded" href="{{ route('project/serch',['recipi' => $recipi->id]) }}"">戻る</a>
+         <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-green-500 hover:bg-green-600 text-white rounded" href="{{ route('serch',['recipi' => $recipi->id]) }}"">戻る</a>
 
                 </div>
         </div>
