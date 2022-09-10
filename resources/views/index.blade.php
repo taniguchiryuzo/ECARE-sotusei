@@ -90,7 +90,6 @@
                     
                     <td class="font-medium">{{ $recipi->type }}</td>
                     <td class="font-medium">{{ $recipi->foodform }}</td>
-                    {{-- <td>{{ $recipi->updated_at }}</td> --}}
                     <td>
                    </td>
                 </tr>
