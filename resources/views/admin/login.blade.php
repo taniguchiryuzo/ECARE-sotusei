@@ -7,7 +7,7 @@
    <link href="../css/admin/tailwind/tailwind.min.css" rel="stylesheet" type="text/css">
 
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
-  <script src="js/main.js"></script>
+  <script src="../js/main.js"></script>
 </head>
 <body class="antialiased bg-body text-body font-body">
 <div>
