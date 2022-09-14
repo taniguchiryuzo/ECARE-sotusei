@@ -40,7 +40,7 @@
                     <div class="mb-6">
                         <label class="block text-sm font-medium mb-2" for="image">画像</label>
                         <div class="flex items-end">
-                            <img id="previewImage" src="../../images/admin/noimage.jpg" data-noimage="../..//images/admin/noimage.jpg" alt="" class="rounded shadow-md w-64">
+                            <img id="previewImage" src="../../images/admin/noimage.jpg" data-noimage="../../images/admin/noimage.jpg" alt="" class="rounded shadow-md w-64">
                         </div>
                         <div>
                             <input id="image" class="block w-full px-3 py-2 mb-1" type="file" accept='image/*' name="image">
