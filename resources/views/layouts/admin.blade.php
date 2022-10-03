@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://kousei0038.sakura.ne.jp/project/css/admin/tailwind/tailwind.min.css">
     <link rel="stylesheet" href="https://kousei0038.sakura.ne.jp/project/css/admin/select2.min.css">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
-    <script src="../js/main.js"></script>
-    <script src="../js/admin/jquery-3.6.0.slim.min.js"></script>
-    <script src="../js/admin/select2.min.js"></script>
+    <script src="https://kousei0038.sakura.ne.jp/project/js/main.js"></script>
+    <script src="https://kousei0038.sakura.ne.jp/project/js/admin/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://kousei0038.sakura.ne.jp/project/js/admin/select2.min.js"></script>
 </head>
 <body class="antialiased bg-body text-body font-body">
 <div>
