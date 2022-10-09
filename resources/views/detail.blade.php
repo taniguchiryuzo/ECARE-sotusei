@@ -13,7 +13,7 @@
                    
                 </div>
 
-                <div class="pt-6 px-6">
+                <div class="pt-4 px-6">
                     <!-- ▼▼▼▼エラーメッセージ▼▼▼▼　-->
                    @if($errors->any())
                     <div class="mb-8 py-4 px-6 border border-red-300 bg-red-50 rounded">
