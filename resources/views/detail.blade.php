@@ -3,6 +3,7 @@
 @section('content')
 <!-- cssの呼び出し -->
 <link href="css/tailwind/tailwind.min.css" rel="stylesheet" type="text/css">
+<link href="css/app.css" rel="stylesheet">
 <!-- jsファイルの呼び出し -->
 <script src="js/main.js" type="text/javascript"></script>
 <section class="py-8">
@@ -38,8 +39,8 @@
                     </div>
                     <div class="mb-6">
                                           
-                      <div class="">{{ $recipi->material }}</div>
-                      <div class="">{{ $recipi->body }}</div>
+                      <div class="textarea">{{ $recipi->material }}</div>
+                      <div class="textarea">{{ $recipi->body }}</div>
                      </div>
                    <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-green-500 hover:bg-green-600 text-white rounded" href="/project">TOPに戻る</a>
 
