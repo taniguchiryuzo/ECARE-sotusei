@@ -31,7 +31,7 @@
                     <div class="mb-6 text-green-500 text-xl">
                         <div>タイトル{{ $recipi->title }}</div>
                     </div>
-                        <div>{{ $recipi->type }}</div>
+                        <div>カテゴリ：{{ $recipi->type }}</div>
                         <div class="">{{ $recipi->foodform }}</div>
                     <div class="mb-6">
                         <div class="flex items-end">
