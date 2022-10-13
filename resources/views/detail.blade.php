@@ -28,6 +28,7 @@
                     </div>
                     <!-- ▲▲▲▲エラーメッセージ▲▲▲▲　-->
                     <div class="mb-6 text-green-500 text-xl">
+                        <div>タイトル</div>
                         <div>{{ $recipi->title }}</div>
                     </div>
                         <div>{{ $recipi->type }}</div>
