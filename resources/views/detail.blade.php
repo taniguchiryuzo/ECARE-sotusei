@@ -29,9 +29,12 @@
                     <!-- ▲▲▲▲エラーメッセージ▲▲▲▲　-->
                     <div>タイトル</div>
                     <div class="mb-6 text-green-500 text-xl">
-                        <div>タイトル{{ $recipi->title }}</div>
+                        <div>{{ $recipi->title }}</div>
                     </div>
-                        <div>カテゴリ：{{ $recipi->type }}</div>
+
+                    <div>カテゴリ</div>
+                        <div>{{ $recipi->type }}</div>
+                        <div>食形態</div>
                         <div class="">{{ $recipi->foodform }}</div>
                     <div class="mb-6">
                         <div class="flex items-end">
