@@ -27,9 +27,9 @@
                      @endif
                     </div>
                     <!-- ▲▲▲▲エラーメッセージ▲▲▲▲　-->
+                    <div>タイトル</div>
                     <div class="mb-6 text-green-500 text-xl">
-                        <div>タイトル</div>
-                        <div>{{ $recipi->title }}</div>
+                        <div>タイトル{{ $recipi->title }}</div>
                     </div>
                         <div>{{ $recipi->type }}</div>
                         <div class="">{{ $recipi->foodform }}</div>
