@@ -36,7 +36,7 @@
             </table>
 @endif
 @if(!empty($message))
-<div class="alert alert-primary" role="alert">{{ $message}}</div>
+<div class="alert alert-primary flex justify-center" role="alert">{{ $message}}</div>
 @endif
 </div>
 @endsection
