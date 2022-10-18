@@ -7,7 +7,7 @@
 <div style="margin-top:50px;">
 <h1 class="flex justify-center">検索結果</h1>
 
-<a class="flex justify-center px-4 py-3 text-xs font-semibold leading-none bg-green-500 hover:bg-green-600 text-white rounded" href="/project">戻る</a>
+<a class="flex justify-center px-3 py-2 text-xs font-semibold leading-none bg-green-500 hover:bg-green-600 text-white rounded" href="/project">戻る</a>
 @if(isset($recipis))
 <table class="table-auto w-full">
                 <thead>
