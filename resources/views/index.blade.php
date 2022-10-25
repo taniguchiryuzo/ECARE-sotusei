@@ -82,8 +82,8 @@
                 <tbody>
                     @foreach ($recipis as $recipi )
                     <tr @class(['text-sm'.'bg-gray-50' => $loop->odd])>
-                    <td class="flex px-4 py-3 recipis-center justify-center">
-                        <img class="flex justify-start w-12 h-12 mr-4 object-cover rounded-md" src="{{ asset('storage/'.$recipi->image) }}" alt="">
+                    <td class="flex px-4 py-3 recipis-center justify-start">
+                        <img class="w-12 h-12 mr-4 object-cover rounded-md" src="{{ asset('storage/'.$recipi->image) }}" alt="">
                         <p class="font-medium"><a href="{{ route('detail',['recipi' => $recipi->id]) }}">{{ $recipi->title }}</a></p>
                     </td>
                     
