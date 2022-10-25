@@ -42,8 +42,9 @@
                         </div>
                     </div>
                     <div class="mb-6">
-                                          
+                           <div>材料</div>               
                       <div class="textarea">{{ $recipi->material }}</div>
+                      <div>作り方</div>
                       <div class="textarea">{{ $recipi->body }}</div>
                      </div>
                    <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-green-500 hover:bg-green-600 text-white rounded" href="/project">TOPに戻る</a>
