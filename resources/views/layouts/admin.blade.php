@@ -16,18 +16,18 @@
 <body class="antialiased bg-body text-body font-body">
 <div>
     <!-- ▼▼▼▼共通ヘッダー(SP)▼▼▼▼　-->
-    <!-- <nav class="lg:hidden py-6 px-6 bg-gray-800">
+    <nav class="lg:hidden py-6 px-6 bg-gray-800">
         <div class="flex items-center justify-between"></div>
             <a class="text-2xl text-white font-semibold" href="https://kousei0038.sakura.ne.jp/project/admin/recipis">管理画面</a>
-            <button class="navbar-burger flex items-center rounded focus:outline-none">
+            <!-- <button class="navbar-burger flex items-center rounded focus:outline-none">
                 <svg class="text-white bg-indigo-500 hover:bg-indigo-600 block h-8 w-8 p-2 rounded" viewbox="0 0 20 20"
                      xmlns="http://www.w3.org/2000/svg" fill="currentColor">
                     <title>Mobile menu</title>
                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
                 </svg>
-            </button>
+            </button> -->
         </div>
-    </nav> -->
+    </nav>
     <!-- ▲▲▲▲共通ヘッダー(SP)▲▲▲▲　-->
     <!-- ▼▼▼▼共通サイドナビ▼▼▼▼　-->
     <div class="hidden lg:block navbar-menu relative z-50">
