@@ -27,14 +27,14 @@
                      @endif
                     </div>
                     <!-- ▲▲▲▲エラーメッセージ▲▲▲▲　-->
-                    <div class="bg-gray-200 text-black rounded px-4 py-2 w-full">タイトル</div>
+                    <div class="bg-gray-200 text-black rounded px-4 py-2">タイトル</div>
                     <div class="mb-6 text-green-500 text-xl">
                         <div>{{ $recipi->title }}</div>
                     </div>
 
-                    <div>カテゴリ</div>
+                    <div class="bg-gray-200 text-black rounded px-4 py-2">カテゴリ</div>
                         <div>{{ $recipi->type }}</div>
-                        <div>食形態</div>
+                        <div class="bg-gray-200 text-black rounded px-4 py-2">食形態</div>
                         <div class="">{{ $recipi->foodform }}</div>
                     <div class="mb-6">
                         <div class="flex items-end">
@@ -42,9 +42,9 @@
                         </div>
                     </div>
                     <div class="mb-6">
-                           <div>材料</div>               
+                           <div class="bg-gray-200 text-black rounded px-4 py-2">材料</div>               
                       <div class="textarea">{{ $recipi->material }}</div>
-                      <div>作り方</div>
+                      <div class="bg-gray-200 text-black rounded px-4 py-2">作り方</div>
                       <div class="textarea">{{ $recipi->body }}</div>
                      </div>
                    <a class="inline-block px-4 py-3 text-xs font-semibold leading-none bg-green-500 hover:bg-green-600 text-white rounded" href="/project">TOPに戻る</a>
