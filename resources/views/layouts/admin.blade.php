@@ -16,7 +16,7 @@
 <body class="antialiased bg-body text-body font-body">
 <div>
     <!-- ▼▼▼▼共通ヘッダー(SP)▼▼▼▼　-->
-    <nav class="lg:hidden py-6 px-6 bg-gray-800">
+    <!-- <nav class="lg:hidden py-6 px-6 bg-gray-800">
         <div class="flex items-center justify-between"></div>
             <a class="text-2xl text-white font-semibold" href="https://kousei0038.sakura.ne.jp/project/admin/recipis">管理画面</a>
             <button class="navbar-burger flex items-center rounded focus:outline-none">
@@ -27,7 +27,7 @@
                 </svg>
             </button>
         </div>
-    </nav>
+    </nav> -->
     <!-- ▲▲▲▲共通ヘッダー(SP)▲▲▲▲　-->
     <!-- ▼▼▼▼共通サイドナビ▼▼▼▼　-->
     <div class="hidden lg:block navbar-menu relative z-50">
