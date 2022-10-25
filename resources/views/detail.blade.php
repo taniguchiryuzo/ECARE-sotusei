@@ -27,7 +27,7 @@
                      @endif
                     </div>
                     <!-- ▲▲▲▲エラーメッセージ▲▲▲▲　-->
-                    <div class="bg-gray-200 text-black rounded px-4 py-2">タイトル</div>
+                    <div class="bg-gray-200 text-black rounded px-4 py-2 w-full">タイトル</div>
                     <div class="mb-6 text-green-500 text-xl">
                         <div>{{ $recipi->title }}</div>
                     </div>
