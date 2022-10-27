@@ -8,7 +8,7 @@
 <script src="js/main.js" type="text/javascript"></script>
 
 
-<section class="bg-gray-100">
+<section class="bg-orange-100">
   <div class="container mx-auto py-40 relative">
     <h1 class="mt-2 text-4xl font-bold font-heading text-center">さぁ、みんなでご飯を楽しもう！！</h1>
    
